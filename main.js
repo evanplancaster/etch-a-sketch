@@ -26,7 +26,7 @@ $(document).ready(function(){
   $(".clear").on("click", function(){
     $(".square").css({"background-color": "white"});
   });
-
+ 
   $(".resize").on("click", function(){
     numSquares = prompt("How wide?");
     initializeGrid($(".container"), numSquares);
